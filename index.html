@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What the Flip Should I Tip?</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="main-box">
+        <h2 class="title-top">What the Flip Should I Tip?</h2>
+        <div class="input-group">
+        <div class="pre">$</div>
+        <input type="number" id="billInput" placeholder="How much was the bill?">
+        </div>
+
+<p class="titles service-title"></p>
+<select required name="Service-lvl" id="serviceInput">
+    <option value="1" disabled selected>How was the service?</option>
+    <option value=".3">Amazing!</option>
+    <option value=".2">Solid</option>
+    <option value=".15">Meh...</option>
+</select>
+
+<div class="input-group bottom-input">
+    <input type="number" id="peopleInput" placeholder="How many people are splitting the bill?">
+    </div>
+
+<button class="tipBtn" id="tipBtn">Are You Tipping or Tripping?</button>
+
+
+<h3 id="tipOutput"></h3>
+</div>
+
+<script src="./app.js"></script>
+</body>
+</html>
